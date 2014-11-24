@@ -42,6 +42,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "../Util/StringUtil.h"
 #include "../Util/timing_util.hpp"
 
+#include <osrm/json_container.hpp>
+
 #include <algorithm>
 
 template <class DataFacadeT> class JSONDescriptor final : public BaseDescriptor<DataFacadeT>

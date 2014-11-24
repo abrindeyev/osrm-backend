@@ -33,10 +33,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "OSRMException.h"
 #include "simple_logger.hpp"
 
-#include <osrm/ServerPaths.h>
-
 #include <boost/any.hpp>
 #include <boost/program_options.hpp>
+
+#include <osrm/server_paths.hpp>
 
 #include <fstream>
 #include <string>
