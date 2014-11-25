@@ -97,7 +97,7 @@ template <class DataFacadeT> class ViaRoutePlugin final : public BasePlugin
                                                             route_parameters.zoom_level);
         }
 
-        RawRouteData raw_route;
+        InternalRouteResult raw_route;
         auto build_phantom_pairs = [&raw_route] (const PhantomNode &first, const PhantomNode &second)
         {
             raw_route.segment_end_coordinates.emplace_back(PhantomNodes{first, second});
